@@ -5,7 +5,7 @@ import { FaUser } from 'react-icons/fa';
 
 import useCurrentUser from '@/hooks/useCurrentUser';
 
-import SidebarItem from './SIdebarItem';
+import SidebarItem from './SidebarItem';
 import SidebarLogo from './SidebarLogo';
 import SidebarTweetButton from './SidebarTweetButton';
 
