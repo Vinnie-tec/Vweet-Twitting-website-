@@ -1,5 +1,5 @@
 {
-  "version": 29,
+  "version": 2,
   "env": {
     "DATABASE_URL": "${process.env.DATABASE_URL}",
     "NEXTAUTH_JWT_SECRET": "${process.env.NEXTAUTH_JWT_SECRET}",
