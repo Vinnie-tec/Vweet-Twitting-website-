@@ -13,6 +13,5 @@
         "NODE_VERSION": "18"
       }
     }
-  ],
-  "buildCommand": "npm run build"
+  ]
 }
