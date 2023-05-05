@@ -1,0 +1,19 @@
+{
+  "builds": [
+    {
+      "src": "api/*",
+      "use": "@vercel/node",
+      "config": {
+        "NODE_VERSION": "14"
+      },
+      "build": {
+        "env": {
+          "DATABASE_URL": "${process.env.DATABASE_URL}",
+          "NEXTAUTH_JWT_SECRET": "${process.env.NEXTAUTH_JWT_SECRET}",
+          "NEXTAUTH_SECRET": "${process.env.NEXTAUTH_SECRET}"
+        },
+        "postinstall": "prisma generate"
+      }
+    }
+  ]
+}
