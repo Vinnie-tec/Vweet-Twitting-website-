@@ -1,7 +1,13 @@
+import PostFeed from "@/components/posts/PostFeed"
 import Header from "@/components/Header";
+import Form from "@/components/Form";
 
 export default function Home() {
   return (
-    <main className="text-3xl text-sky-500">{<Header label="Home" />}</main>
+    <>
+      <Header label="Home" />
+      <Form placeholder="What's happening?" />
+      <PostFeed />
+    </>
   );
 }
