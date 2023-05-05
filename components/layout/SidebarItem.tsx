@@ -12,7 +12,7 @@ interface SidebarItemProps {
   href?: string;
   onClick?: () => void;
   auth?: boolean;
-  alert?: boolean;
+  alert?: boolean; 
 }
 
 const SidebarItem: React.FC<SidebarItemProps> = ({
