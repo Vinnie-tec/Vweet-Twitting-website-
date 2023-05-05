@@ -1,15 +1,15 @@
 {
+  "env": {
+    "DATABASE_URL": "process.env.DATABASE_URL",
+    "NEXTAUTH_JWT_SECRET": "process.env.NEXTAUTH_JWT_SECRET",
+    "NEXTAUTH_SECRET": "process.env.NEXTAUTH_SECRET"
+  },
   "builds": [
     {
       "src": "api/*",
       "use": "@vercel/node",
       "config": {
         "NODE_VERSION": "14"
-      },
-      "env": {
-        "DATABASE_URL": "process.env.DATABASE_URL",
-        "NEXTAUTH_JWT_SECRET": "process.env.NEXTAUTH_JWT_SECRET",
-        "NEXTAUTH_SECRET": "process.env.NEXTAUTH_SECRET"
       },
       "postinstall": "prisma generate"
     }
