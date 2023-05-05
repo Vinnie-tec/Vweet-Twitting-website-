@@ -14,3 +14,4 @@ pnpm dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+![Screenshot (10)](https://user-images.githubusercontent.com/68156447/236533781-088b8748-815c-4d94-96a1-847a0743e4ca.png)
