@@ -9,10 +9,7 @@
       "src": "api/*",
       "use": "@vercel/node",
       "config": {
-        "NODE_VERSION": "14"
-      },
-      "build": {
-        "postinstall": "prisma generate"
+        "NODE_VERSION": "18"
       }
     }
   ]
