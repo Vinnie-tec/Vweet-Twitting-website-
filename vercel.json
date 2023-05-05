@@ -11,7 +11,9 @@
       "config": {
         "NODE_VERSION": "14"
       },
-      "postinstall": "prisma generate"
+      "build": {
+        "postinstall": "prisma generate"
+      }
     }
   ]
 }
