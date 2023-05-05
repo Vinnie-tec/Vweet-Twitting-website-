@@ -4,13 +4,5 @@
     "NEXTAUTH_JWT_SECRET": "process.env.NEXTAUTH_JWT_SECRET",
     "NEXTAUTH_SECRET": "process.env.NEXTAUTH_SECRET"
   },
-  "builds": [
-    {
-      "src": "api/*",
-      "use": "@vercel/node",
-      "config": {
-        "NODE_VERSION": "18"
-      }
-    }
-  ]
+  "version": 2
 }
